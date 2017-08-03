@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <link rel="stylesheet" href="lib/ueditor/themes/default/css/ueditor.css"/>
+    <script type="text/javascript">
+      window.UEDITOR_HOME_URL = "/static/lib/ueditor/";
+    </script>
+    <script type="text/javascript" src="lib/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="lib/ueditor/ueditor.all.min.js"></script>
+    <script type="text/javascript" src="lib/ueditor/lang/zh-cn/zh-cn.js"></script>
+    <script type="text/javascript" charset="utf-8" src="lib/ueditor/formdesign/leipi.Formdesign.v4.js"></script>
+
+</head>
+<body>
+    <script id="container" name="content" type="text/plain">
+    </script>
+    <script type="text/javascript">
+      var ue = UE.getEditor('container', {
+        toolleipi:true,
+        toolbars:[['fullscreen', 'source', '|', 'undo', 'redo', '|','bold', 'italic', 'underline', 'fontborder', 'strikethrough',  'removeformat', '|', 'forecolor', 'backcolor', 'insertorderedlist', 'insertunorderedlist','|', 'fontfamily', 'fontsize', '|', 'indent', '|', 'justifyleft', 'justifycenter', 'justifyright', 'justifyjustify', '|',  'link', 'unlink',  '|','simpleupload',  'horizontal',  'spechars',  'wordimage', '|', 'inserttable', 'deletetable',  'mergecells',  'splittocells', '|','template' ]],
+        wordCount:false,
+        elementPathEnabled:false,
+        textarea: 'design_content',
+        initialFrameHeight:500
+      });
+      ue.ready(function(){
+      });
+    </script>
+</body>
+</html>

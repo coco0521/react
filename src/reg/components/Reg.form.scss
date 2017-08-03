@@ -1,0 +1,19 @@
+body{
+	.main-container{
+		.form-container{
+			height:380px;
+		}
+	}
+	.ant-row{
+		overflow:hidden;
+		.ant-form-item-control-wrapper{
+			width:76%;
+			display:inline-block;
+			float:right;
+		}
+	}
+
+	.login-btn{
+		margin: 26px 40px 0 0;
+	}
+}

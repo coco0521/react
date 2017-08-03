@@ -1,0 +1,1 @@
+export sendUserRegInfo from './sendUserRegInfo'

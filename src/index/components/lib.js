@@ -1,0 +1,6 @@
+export OrgTree from './OrgTree'
+export SettingModal from './SettingModal'
+export AddDepartModal from './AddDepart.modal'
+export AddPersonModal from './AddPerson.modal'
+export AdjustDepartModal from './AdjustDepart.modal'
+export SelectPersonByOrg from './SelectPersonByOrg.table'

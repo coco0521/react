@@ -1,0 +1,80 @@
+body {
+  cursor: auto;
+  font-weight: 400;
+  margin: 0;
+
+  #app-messager-wnd {
+    height: 600px;
+    .layout-system, .layout-category, .layout-main {
+      height: 800px;
+      border-right: 1px solid #ccc;
+      padding: 10px;
+    }
+
+    .layout-system {
+      & .avatar {
+        padding-bottom: 20px;
+      }
+      & ul {
+        list-style: none;
+        padding: 0;
+        & li {
+          padding: 0 0 10px 10px;
+          cursor: pointer;
+          & span {
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+
+    .layout-category {
+      padding: 0;
+      ul.cmp-msgCate,
+      ul.cmp-contacts {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        & li {
+          line-height: 50px;
+          border-bottom: 1px solid #ccc;
+        }
+
+        & img {
+          display: inline;
+        }
+
+        & span {
+          padding: 0 0 0 10px;
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .layout-main {
+      padding: 0;
+      .chat-box {
+        padding: 0;
+        border-right: 1px solid #ccc;
+        & .chat-list {
+          height: 400px;
+          border-bottom: 1px solid #ccc;
+          & ul {
+            list-style: none;
+            padding: 10px;
+            & li:nth-child(odd) {
+              text-align: right;
+            }
+          }
+        }
+        & .chat-input {
+          height: 100px;
+        }
+      }
+    }
+
+    .p0 {
+      padding: 0;
+    }
+  }
+}

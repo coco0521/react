@@ -1,0 +1,52 @@
+.ant-modal{
+	width: 664px;
+	.ant-row{
+		overflow:hidden;
+		.ant-form-item-label{
+			float:left;
+		}
+	}
+}
+.set-form-container{
+		padding:10px;
+
+		.set-title{
+			font-size:14px;
+			background-color:#eceff4;
+			padding:0 15px;
+			height:38px;
+			line-height:38px;
+			margin-bottom:18px;
+		}
+		.ant-form-item-label label{
+			font-size:14px;
+			font-weight:normal;
+		}
+		.ant-form{
+			margin-top:20px;
+		}
+		.ant-form-item-label{
+			margin-left:48px;
+		}
+		.set-title-r{
+			float:right;
+			font-size:13px;
+		}
+		.set-nobt{
+			margin-bottom:0;
+		}
+		.set-modify{
+			font-size:12px;
+			color:#8f8f8f;
+			margin:0 0 20px 47px;
+		}
+		.set-btns{
+			margin: 0 0 10px 115px;
+			Button{
+				margin:11px 8px 0 0;
+			}
+		}
+		.btn-delete{
+			color:red;
+		}
+	}

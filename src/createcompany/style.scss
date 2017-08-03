@@ -1,0 +1,63 @@
+/*定义变量*/
+$headerbg: #fcfcfc;
+$headerheight:64px;
+$mainwidth:1080px;
+$mainborder:1px solid #dedede;
+
+body{
+  background-color: #e7e8eb;
+  color:#333;
+  min-width:1100px;
+
+  .main-container{
+    height:100%;
+    .main-header{
+      background-color: $headerbg;
+      border-bottom:1px solid #ededed;
+      height:$headerheight;
+      margin-bottom:10px;
+      padding: 0 60px;
+      overflow:hidden;
+
+      .header-title{
+        float:left;
+        width:300px;
+        font-family:"微软雅黑";
+        margin:0 auto;
+        color:#333;
+        font-size:22px;
+        line-height:60px;
+      }
+      .zhuce{
+        float:right;
+        font-size: 16px;
+        background-color: #ec971f;
+        color: #fff;
+        border: none;
+        margin: 18px 60px 0 0;
+      }
+    }
+    .form-container{
+      background-color:#fff;
+      width:538px;
+      margin:40px auto;
+      border-radius:4px;
+      padding-bottom:20px;
+      .form-title{
+        height: 40px;
+        line-height: 40px;
+        background-color: #49a9ee;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom:34px;
+        font-size:16px;
+      }
+      .login-form{
+        padding: 0 20px;
+      }
+    }
+  }
+}

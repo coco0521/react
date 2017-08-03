@@ -1,0 +1,5 @@
+const http = require('http');
+const settings = require('../settings');
+const server = require('../server');
+
+http.createServer(server).listen(settings.PORT);

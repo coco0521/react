@@ -1,0 +1,36 @@
+body .main-mid .mid-r .child-depart .child-btns .addPersonBtn{
+	background-color:#5abbff;
+	color:#fff;
+	border:none;
+}
+.ant-modal-footer{
+	display:none;
+}
+.setting-modal{
+	top:20px;
+
+	.ant-modal-close{
+		top:10px;
+	}	
+	.ant-modal-header{
+		padding:22px 16px;
+
+		.ant-modal-title{
+			font-size:20px;
+		}
+	}
+	.set-form-container{
+		padding:10px;
+		.set-title{
+			font-size:14px;
+			background-color:#eceff4;
+			padding-left:15px;
+			height:38px;
+			line-height:38px;
+		}
+		.ant-form-item-control-wrapper{
+			width: 64%;
+    		display: inline-block;
+		}
+	}
+}

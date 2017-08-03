@@ -1,0 +1,1 @@
+export RegForm from './Reg.form.jsx'
